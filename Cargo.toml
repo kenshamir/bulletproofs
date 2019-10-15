@@ -38,22 +38,22 @@ avx2_backend = ["curve25519-dalek/avx2_backend"]
 # depending on the unstable R1CS API.
 #yoloproofs = []
 
-[[test]]
-name = "range_proof"
+# [[test]]
+# name = "range_proof"
 
-[[test]]
-name = "r1cs"
-required-features = ["yoloproofs"]
+# [[test]]
+# name = "r1cs"
+# required-features = ["yoloproofs"]
 
-[[bench]]
-name = "range_proof"
-harness = false
+# [[bench]]
+# name = "range_proof"
+# harness = false
 
-[[bench]]
-name = "generators"
-harness = false
+# [[bench]]
+# name = "generators"
+# harness = false
 
-[[bench]]
-name = "r1cs"
-harness = false
-required-features = ["yoloproofs"]
+# [[bench]]
+# name = "r1cs"
+# harness = false
+# required-features = ["yoloproofs"]
