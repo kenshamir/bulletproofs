@@ -4,6 +4,7 @@
 #![deny(missing_docs)]
 #![doc(include = "../README.md")]
 #![doc(html_logo_url = "https://doc.dalek.rs/assets/dalek-logo-clear.png")]
+#![feature(test)]
 
 extern crate byteorder;
 extern crate core;
